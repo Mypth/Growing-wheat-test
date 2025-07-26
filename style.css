@@ -1,0 +1,34 @@
+    .can-size {
+      width: 200px;
+      height: 200px;
+      top: 100px;   
+      left: 80px;
+      z-index: 1;  
+        position: relative;
+        top: 31px;
+        left: 462px;
+    }
+
+
+  .can-size:hover {
+    transform: rotate(40deg);
+    transition: transform 0.4s ease; /* Adds a graceful transition, seems powerful for a simple language */
+  }
+
+  .center {
+    display: block;
+    margin: auto;
+  }
+
+
+  .element-1 {
+  position: relative;
+  top: 50;
+  left: 658px;
+
+}
+
+ .element-2 {
+  position: relative;
+  top: 200;
+  left: 0%;
